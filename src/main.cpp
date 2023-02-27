@@ -72,9 +72,9 @@ void loop() {
         return;
       }
       
-      bool light_switch_1 = doc["light_switch_1"]; // "Luke Skywalker"
-      bool light_switch_2 = doc["light_switch_2"]; // "172"
-      bool light_switch_3 = doc["light_switch_3"]; // "77"
+      bool light_switch_1 = doc["light_switch_1"]; 
+      bool light_switch_2 = doc["light_switch_2"]; 
+      bool light_switch_3 = doc["light_switch_3"];
   
       Serial.println("");
       Serial.println(light_switch_1);
